@@ -37,5 +37,4 @@ class SecondActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-
 }
