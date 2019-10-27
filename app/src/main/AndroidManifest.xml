@@ -14,9 +14,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher_steel"
+        android:icon="@mipmap/ic_launcher_steel_new"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_steel_round"
+        android:roundIcon="@mipmap/ic_launcher_steel_new_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.app.steelconversion.MainActivity"
@@ -28,30 +28,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.app.steelconversion.SecondActivity"
-            android:parentActivityName="com.app.steelconversion.MainActivity"
-            android:screenOrientation="portrait">
-        </activity>
-
-        <activity android:name="com.app.steelconversion.AboutActivity"
-            android:parentActivityName="com.app.steelconversion.MainActivity"
-            android:screenOrientation="portrait">
-        </activity>
-
-        <activity android:name="com.app.steelconversion.ThemesActivity"
-            android:parentActivityName="com.app.steelconversion.MainActivity"
-            android:screenOrientation="portrait">
-        </activity>
-
-        <activity android:name="com.app.steelconversion.SettingsActivity"
-            android:parentActivityName="com.app.steelconversion.MainActivity"
-            android:screenOrientation="portrait">
-        </activity>
-
-        <activity android:name="com.app.steelconversion.HelpActivity"
-            android:parentActivityName="com.app.steelconversion.MainActivity"
-            android:screenOrientation="portrait">
-        </activity>
 
         <activity android:name="com.mopub.common.privacy.ConsentDialogActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"/>

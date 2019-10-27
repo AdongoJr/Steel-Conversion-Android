@@ -10,18 +10,9 @@
         android:layout_width="120dp"
         android:layout_height="130dp"
         android:layout_marginBottom="15dp"
-        android:background="@drawable/ic_launcher_foreground"
+        android:background="@mipmap/ic_launcher_steel_new_round"
         android:contentDescription="@string/nav_image" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="monospace"
-        android:text="@string/nav_header_title"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        android:textStyle="bold" />
 
 
 </LinearLayout>
