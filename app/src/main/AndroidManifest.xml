@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.steelconversion">
+    package="com.app.steelconversion">
 
     <!-- MoPub required permissions -->
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -19,7 +19,7 @@
         android:roundIcon="@mipmap/ic_launcher_steel_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity android:name="com.app.steelconversion.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,28 +28,28 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SecondActivity"
-            android:parentActivityName=".MainActivity"
+        <activity android:name="com.app.steelconversion.SecondActivity"
+            android:parentActivityName="com.app.steelconversion.MainActivity"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name=".AboutActivity"
-            android:parentActivityName=".MainActivity"
+        <activity android:name="com.app.steelconversion.AboutActivity"
+            android:parentActivityName="com.app.steelconversion.MainActivity"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name=".ThemesActivity"
-            android:parentActivityName=".MainActivity"
+        <activity android:name="com.app.steelconversion.ThemesActivity"
+            android:parentActivityName="com.app.steelconversion.MainActivity"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name=".SettingsActivity"
-            android:parentActivityName=".MainActivity"
+        <activity android:name="com.app.steelconversion.SettingsActivity"
+            android:parentActivityName="com.app.steelconversion.MainActivity"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name=".HelpActivity"
-            android:parentActivityName=".MainActivity"
+        <activity android:name="com.app.steelconversion.HelpActivity"
+            android:parentActivityName="com.app.steelconversion.MainActivity"
             android:screenOrientation="portrait">
         </activity>
 

@@ -1,4 +1,4 @@
-package com.example.steelconversion
+package com.app.steelconversion
 
 import org.junit.Test
 

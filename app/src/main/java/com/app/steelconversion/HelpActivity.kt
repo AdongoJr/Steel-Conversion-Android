@@ -1,13 +1,13 @@
-package com.example.steelconversion
+package com.app.steelconversion
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
-class ThemesActivity : AppCompatActivity() {
+class HelpActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_themes)
+        setContentView(R.layout.activity_help)
 
     }
 

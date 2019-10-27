@@ -1,8 +1,6 @@
-package com.example.steelconversion
+package com.app.steelconversion
 
 import android.content.Intent
-import android.icu.lang.UCharacter.GraphemeClusterBreak.L
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
