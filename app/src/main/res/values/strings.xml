@@ -1,14 +1,5 @@
 <resources>
     <string name="app_name">Steel Conversion</string>
-
-    <string name="mInterstitialId">24534e1901884e398f1253216226017e</string>
-    <string name="mBannerId">b195f8dd8ded45fe847ad89ed1d016da</string>
-    <string name="mBannerMRectId">252412d5e9364a05ab77d9396346d73d</string>
-    <string name="mRewardedVideoId">920b6145fb1546cf8b5cf2ac34638bb7</string>
-    <string name="mRewardedVideoMraidId">15173ac6d3e54c9389b9a5ddca69b34b</string>
-    <string name="mRewardedPlayableId">15173ac6d3e54c9389b9a5ddca69b34b</string>
-    <string name="mNativeId">11a17b188668469fb0412708c3d16813</string>
-
     <string name="settings">Settings</string>
     <string name="about">About</string>
     <string name="exit">Exit</string>

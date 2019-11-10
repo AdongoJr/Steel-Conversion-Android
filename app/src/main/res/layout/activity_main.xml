@@ -6,7 +6,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_light">
+    android:background="@color/colorMainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
@@ -19,9 +19,7 @@
             android:layout_height="77dp"
             android:layout_marginStart="25dp"
             android:layout_marginTop="32dp"
-            android:layout_marginBottom="15dp"
             android:hint="@string/diameter"
-            app:layout_constraintBottom_toTopOf="@+id/length_entry"
             app:layout_constraintStart_toEndOf="@+id/diameter"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -32,6 +30,26 @@
                 android:inputType="number"
                 tools:layout_editor_absoluteX="133dp"
                 tools:layout_editor_absoluteY="606dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout2"
+            android:layout_width="130dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="12dp"
+            android:hint="@string/length"
+            app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
+
+            <EditText
+                android:id="@+id/length_entry"
+                android:layout_width="125dp"
+                android:layout_height="50dp"
+                android:inputType="number"
+                tools:layout_editor_absoluteX="133dp"
+                tools:layout_editor_absoluteY="606dp"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -46,15 +64,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <EditText
-            android:id="@+id/length_entry"
-            android:layout_width="125dp"
-            android:layout_height="50dp"
-            android:ems="10"
-            android:hint="@string/length"
-            android:inputType="numberDecimal"
-            app:layout_constraintBaseline_toBaselineOf="@+id/length"
-            app:layout_constraintStart_toStartOf="@+id/textInputLayout" />
 
         <TextView
             android:id="@+id/length"
@@ -70,12 +79,12 @@
             android:id="@+id/calculate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="25dp"
             android:text="@string/calculate"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/length_entry" />
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
 
         <TextView
             android:id="@+id/results"
@@ -109,18 +118,10 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/reset" />
 
-        <com.mopub.mobileads.MoPubView
-            android:id="@+id/banner_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:moPubAdSize="match_view" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nv"
