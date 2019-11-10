@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_steel_new_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/testAppId"/>
+
         <activity android:name="com.app.steelconversion.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>

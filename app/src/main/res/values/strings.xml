@@ -23,4 +23,12 @@
     <string name="total_weight_kgs">Total Weight (kgs): </string>
     <string name="reset">Reset</string>
     <string name="unit_weight_kgs">Unit Weight (kgs/m): </string>
+
+    <string name="appId">ca-app-pub-3475581997908692~4649071111</string>
+    <string name="bannerAd_1">ca-app-pub-3475581997908692/5986203516</string>
+    <string name="interstitialAd">ca-app-pub-3475581997908692/4289978461</string>
+
+    <string name="testAppId">ca-app-pub-7266217626843205~2932089409</string>
+    <string name="testBannerAd">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="testIntestitialAd">ca-app-pub-3940256099942544/1033173712</string>
 </resources>
