@@ -1,10 +1,12 @@
 package com.app.steelconversion
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextUtils
 import android.text.TextWatcher
+import android.view.Menu
 import android.view.MenuItem
 import android.widget.EditText
 import android.widget.TextView
@@ -121,13 +123,33 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+
+        return super.onCreateOptionsMenu(menu)
+    }
+
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (t.onOptionsItemSelected(item))
             return true
 
+        when(item.itemId) {
+            R.id.menuExit -> {
+                finishAffinity()
+                return  true
+            }
+
+            R.id.menuAbout -> {
+                val intent = Intent(this@MainActivity, AboutActivity::class.java)
+                startActivity(intent)
+                return true
+            }
+        }
+
         return super.onOptionsItemSelected(item)
     }
-
 
 
 }

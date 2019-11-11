@@ -26,9 +26,18 @@
 
     <string name="appId">ca-app-pub-3475581997908692~4649071111</string>
     <string name="bannerAd_1">ca-app-pub-3475581997908692/5986203516</string>
+    <string name="bannerAd_2">ca-app-pub-3475581997908692/7691813648</string>
     <string name="interstitialAd">ca-app-pub-3475581997908692/4289978461</string>
 
     <string name="testAppId">ca-app-pub-7266217626843205~2932089409</string>
     <string name="testBannerAd">ca-app-pub-3940256099942544/6300978111</string>
     <string name="testIntestitialAd">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="textview">This is a simple app that is useful to estimators or contractors
+        in quantifying the amount of steel, given the steel radius and the total length of steel
+        . The amount of steel is given in kilograms, and the total length of steel entered is in
+        metres. The reinforcement steel is assumed to be mild steel bars with a circular
+        cross-section, and the radius entered is in millimetres.
+    </string>
+    <string name="menuAbout">About</string>
 </resources>
