@@ -25,9 +25,21 @@ class AboutActivity: AppCompatActivity() {
         val adRequest = AdRequest.Builder().build()
         mAdView.loadAd(adRequest)
 
+        // Admob interstitial Ads
+        mInterstitialAd = InterstitialAd(this)
+        mInterstitialAd.adUnitId = getString(R.string.testIntestitialAd)
+        mInterstitialAd.loadAd(AdRequest.Builder().build())
+
         // Scrolling movement in textView
         aboutTextView.movementMethod = ScrollingMovementMethod()
 
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        if(mInterstitialAd.isLoaded) {
+            mInterstitialAd.show()
+        }
     }
 
     override fun onSupportNavigateUp(): Boolean {

@@ -114,9 +114,14 @@ class MainActivity : AppCompatActivity() {
                     finishAffinity()
                 }
 
+                R.id.about -> {
+                    menuItem.isChecked = true
+                    val intent = Intent(this@MainActivity, AboutActivity::class.java)
+                    startActivity(intent)
+                }
+
             }
 
-            menuItem.isChecked = true
             dl.closeDrawers()
             true
         }
