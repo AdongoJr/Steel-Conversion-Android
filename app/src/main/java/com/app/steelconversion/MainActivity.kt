@@ -115,7 +115,6 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 R.id.about -> {
-                    menuItem.isChecked = true
                     val intent = Intent(this@MainActivity, AboutActivity::class.java)
                     startActivity(intent)
                 }

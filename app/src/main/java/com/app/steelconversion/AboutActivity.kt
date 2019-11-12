@@ -27,7 +27,7 @@ class AboutActivity: AppCompatActivity() {
 
         // Admob interstitial Ads
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = getString(R.string.testIntestitialAd)
+        mInterstitialAd.adUnitId = getString(R.string.interstitialAd)
         mInterstitialAd.loadAd(AdRequest.Builder().build())
 
         // Scrolling movement in textView
