@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "877751470735",
+    "firebase_url": "https://my-firebase-hosting-2ec30.firebaseio.com",
+    "project_id": "my-firebase-hosting-2ec30",
+    "storage_bucket": "my-firebase-hosting-2ec30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877751470735:android:22b3dabb1b040d18293efa",
+        "android_client_info": {
+          "package_name": "com.app.steelconversion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877751470735-l35mer6qbgqhkg73h1fbp6cgf98ol7kf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQYUL016yQS7zgxzV3JEQrjQVU2xv5D-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877751470735-l35mer6qbgqhkg73h1fbp6cgf98ol7kf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

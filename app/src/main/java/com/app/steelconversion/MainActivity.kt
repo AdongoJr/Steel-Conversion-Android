@@ -16,6 +16,7 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
 import com.google.android.material.navigation.NavigationView
+import com.google.firebase.storage.FirebaseStorage
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -28,6 +29,20 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val storage = FirebaseStorage.getInstance()
+        // Create a storage reference from our app (root)
+        val storageRef = storage.reference
+        // Create a reference to the file to delete
+        val fileToDelete = storageRef.child("python2.jpg")
+        // Delete the file
+        fileToDelete.delete().addOnSuccessListener {
+            // File deleted successfully
+        }.addOnFailureListener {
+            // Uh-oh, an error occurred!
+        }
+
+
 
         // Admob Ads
         MobileAds.initialize(this) {}

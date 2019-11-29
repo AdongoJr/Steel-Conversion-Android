@@ -12,7 +12,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="@string/appId"/>
+            android:value="@string/testAppId"/>
 
         <activity android:name="com.app.steelconversion.MainActivity"
             android:screenOrientation="portrait">
